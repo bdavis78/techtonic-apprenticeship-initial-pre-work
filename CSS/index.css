@@ -1,0 +1,53 @@
+body {
+    min-height: 100vh;
+    background: linear-gradient(rgb(68, 48, 192), blueviolet, violet);
+        } 
+h1 {
+    color: rgb(243, 235, 239);
+    text-align: center;
+    font-size: 45px; 
+        }
+h2 {
+    color:rgb(201, 211, 230);
+    text-align: center;
+}
+h3 {
+    margin: 1em;
+}
+p {
+    margin: 1em;
+}
+article {
+    font-size: 20px;
+   }
+section {
+    font-size: 20px;
+}
+img {
+    max-height: 25%;
+    max-width: 25%;
+}
+footer {
+    text-align: center;
+    font-size: 16px;
+}
+.container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "content1" "content2";
+    height: 100%;
+            }
+.content1 {
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    left: 0;
+    object-position: center bottom;    
+}
+.content2 {
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    right: 0;
+    
+}
